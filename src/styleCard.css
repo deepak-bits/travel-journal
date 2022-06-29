@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 20px;
+}
+
+.main--content{
+    /* text-align: center; */
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-bg{
+    width: 550px;
+    /* height: 868px; */
+    background-color: #23252C;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card{
+    width: 317px;
+    margin: 20px auto;
+    background: #1A1B21;
+    border-radius: 0 0 10px 10px;
+}
+
+.laura--name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.job--role{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+
+.website{
+    margin-top: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.btns{
+    width: 270px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+}
+
+.btn i{
+    margin-right: 9.3px;
+}
+
+.linkedin--btn{
+    background: #5093E2;
+    border: none;
+    color: #FFFFFF;
+}
+
+.desc--content{
+    margin: 0px 34px 27px 36px;
+}
+
+.desc--header{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    
+}
+
+.desc--para{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.top--margin{
+    margin-top: 34px;
+}
+
+.card--social{
+    width: 317px;
+    padding: 20px 40px 40px 40px;
+    /* margin: 0 35px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.card--social i{
+    /* width: 25px;
+    height: 25px; */
+    font-size: 32px;
+    color:#918E9B;
+}
+
+

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Inter', sans-serif;
+}
+
+.cards{
+    width: 550px;
+    /* height: 704px; */
+    border: 2px solid #F55A5A;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+
+.cards--header{
+    text-align: center;
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 12px 12px 0 0;
+}
+
+.cards--header p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.fa-earth-americas{
+    color: white;
+    font-size: 24px;
+    margin-right: 7px;
+}
+
+img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card{
+    margin: 0 40px;
+    padding: 19px 0;
+    display: flex;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card--info{
+    margin-left: 19px;
+    margin-top: 12px;
+}
+
+.card--desc{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+    
+}
+
+.fa-location-dot{
+    margin-right: 9px;
+    color: #F55A5A;
+    width: 7px;
+    height: 9px;
+}
+
+.card--loc{
+    margin-right: 12px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.card--date{
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    margin-bottom: 9px;
+}
+
+.card--place{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-bottom: 12px;
+    line-height: 40px;
+}
+
+.card--maps{
+    text-decoration: underline;
+    color: #918E9B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+}
